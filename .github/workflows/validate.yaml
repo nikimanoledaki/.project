@@ -2,14 +2,8 @@ name: Validate Project Metadata
 
 on:
   pull_request:
-    paths:
-      - 'project.yaml'
-      - 'maintainers.yaml'
   push:
     branches: [main]
-    paths:
-      - 'project.yaml'
-      - 'maintainers.yaml'
   workflow_dispatch:
 
 jobs:
